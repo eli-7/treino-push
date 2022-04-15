@@ -1,0 +1,18 @@
+Para juntar arquivos do branch paralelo no branch default (master) 
+
+1 - Antes de tudo devo comitar as informações no branch desejado
+2 - Feito isso devo mudar para o branch que irá receber as junções dos arquivos
+3- Feito isso devo pressionar 
+
+$ git merge branchasercopiado
+
+Ele pode criar de duas formas, o Fast Forward.
+Apenas vai " Arrastar o branch " para cima do branch master ou 
+
+Pode gerar de forma recursiva um novo commit com o merge, como na imagem de exemplo
+
+https://raw.githubusercontent.com/jonathandacruz/curso-jekyll/master/Anota%C3%A7%C3%A3o%202020-05-28%20210855.jpg
+--
+Para exibir uma interface visual com as interações 
+
+$ gitk

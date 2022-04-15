@@ -1,0 +1,22 @@
+Para verificar seus commits feitos basta efetuar :
+
+$ git log
+
+Caso apareça dois pontos na tela , pressione enter para listar a proxima view com commits
+quando finalizar pressione Q para sair
+
+Para ver o ultimo commits
+
+$ git log -1 
+
+-- Para ver informações reduzidas 
+$ git log --oneline
+
+-- Para ver a alteração do commit 
+
+Copie a hash e utilize 
+$ git show #hash
+
+-- Para procurar por autor 
+
+$ git log --author=Usuario

@@ -1,0 +1,17 @@
+Entre na pasta que você criou , clique com o botão direito e
+inicie o GIT BASH HERE
+
+1- Iniciar o projeto 
+
+$ git init 
+
+-- Quando o projeto é criado o git fica "assistindo " as modificações 
+que estiverem na pasta do projeto
+
+$ git status
+
+-- Caso desejar apagar as configurações do git da pasta em que foi 
+criada 
+
+$ rm -rf .git 
+

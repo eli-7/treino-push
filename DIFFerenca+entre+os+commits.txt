@@ -1,0 +1,16 @@
+Para exibir a diferença do meu arquivo modificado  com o commit anterior :
+
+$ git diff 
+
+-- Para analisar o arquivo 
+
+$ git diff arquivo
+
+Se ja tiver adicionado 
+
+$ git diff --staged 
+
+-- Para ver a diferença entre dois arquivos
+
+$ 
+

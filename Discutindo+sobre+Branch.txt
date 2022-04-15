@@ -1,0 +1,22 @@
+Quando efetuar o primeiro commit o git automaticamente cria uma branch chamada master
+Branch pode ser referenciada como uma linha do tempo.
+
+--
+Para ver as branch que tenho no meu projeto
+
+$ git branch
+
+-- O branch master vai atualizar de acordo com os commits que forem realizados 
+e vai apontar para o ultimo commit que foi realizado.
+
+-- A importancia de criar outros branchs é poder trabalhar de forma paralela ao meu projeto master
+
+Para criar uma branch
+
+$ git branch front
+
+-- Para mudar de branch 
+
+$ git checkout front 
+
+-- O HEAD -> Aponta para o branch atual, que está sendo utilizada no momento

@@ -1,0 +1,18 @@
+Para remover arquivos indesejados que não estão na Staged 
+
+$ git checkout -- arquivo
+
+Ou seja não foi inserido com git add 
+
+-- Para remover da Staged 
+
+$ git reset arquivo
+
+-- Para remover um arquivo que já foi commitado:
+$ git reset --soft #hash - Joga de volta pra Staged
+$ git reset --mixed hash - Joga o arquivo de volta pra Untracked
+$ git reset --hard  hash - Apaga totalmente
+
+-- Para voltar o commit utilizar
+
+$git revert hash --no-edit 

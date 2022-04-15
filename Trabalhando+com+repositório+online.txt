@@ -1,0 +1,29 @@
+Para conectar em um servidor remoto
+
+$ git remote add origin https://github.com/jonathandacruz/curso-jekyll.git
+
+-- Para validar se está conectado:
+$ git remote
+
+--Para validar qual repositorio esta conectado
+$ git remote -v
+
+
+--Para subir os commits
+$ git push origin master
+
+
+Erros comuns:
+
+Pushing to git@github.com:some-project/some-repo.git
+To git@github.com:some-project/some-repo.git
+  ! [rejected]        master -> master (non-fast-forward)
+error: failed to push some refs to 'git@github.com:some-project/some-repo.git'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. Merge the remote changes (e.g. 'git pull')
+hint: before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+
+Link com  a resolução
+https://codewithhugo.com/fix-git-failed-to-push-updates-were-rejected/

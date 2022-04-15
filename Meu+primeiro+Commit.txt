@@ -1,0 +1,28 @@
+Vamos criar um arquivo 
+
+> arquivo1.txt
+
+-- Para Manipular e inserir algum dado no arquivo podemos utilizar
+ echo 'TEXTO INSERIDO' > arquivo1.txt 
+ 
+ -- Para ler o valor do arquivo podemos :
+ cat arquivo1.txt
+
+
+-- Agora se executar git status vou verificar o arquivo que criei
+--
+Posso comitar ?
+Ainda não!
+
+-- Para que o git possa efetuar o commit dos arquivos devemos adicionar 
+a lista que desejamos comitar com o comando :
+
+$ git add nomedoarquivo
+
+Quando efetuarmos o git add o arquivo vai ser copiado para a STAGE do Git
+quando comitamos o git tira uma "FOTO" da stage para armazenar as informações
+
+
+Para Commitar 
+
+git commit -m 'TEXTO de identificação'
